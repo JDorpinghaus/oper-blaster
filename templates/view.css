@@ -1,0 +1,32 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    overflow: hidden;
+}
+
+#announcement{
+    height: 85%;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#buttonRow{
+    height: 100px;
+    display: flex;
+}
